@@ -1,0 +1,49 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+.myenv/
+*.venv
+
+# Package management
+Pipfile.lock
+poetry.lock
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# OS-specific
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Logs
+*.log
+*.out
+*.err
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Testing
+.cache/
+.pytest_cache/
+
+# Docker
+*.dockerignore
+*.env
+docker-compose.override.yml
+
+# Supabase
+.supabase/
+supabase/.env
+myenv/
